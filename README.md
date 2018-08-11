@@ -3,7 +3,7 @@
 
 # Sure
 
-Promise implementation.
+Implementing Thenable.
 
 ## Install
 
