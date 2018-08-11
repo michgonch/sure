@@ -1,6 +1,6 @@
 {
   "name": "@michgonch/sure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Etude on Promise implementation, bundled with Rollup and published to NPM.",
   "repository": "michgonch/sure",
   "main": "dist/sure.js",
