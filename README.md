@@ -5,7 +5,33 @@
 
 Promise implementation.
 
+## Install
+
+```
+npm install @michgonch/sure
+```
+
 ## Usage
+
+```js
+const Sure = require("./sure");
+
+new Sure(resolve => {
+  setTimeout(() => {
+    resolve(`Hello, Promise!`);
+  }, 1000);
+}).then(msg => console.log(msg));
+
+(async () => {
+  const msg = await new Sure(resolve => {
+    setTimeout(() => {
+      resolve(`Hello, Async!`);
+    }, 2000);
+  });
+
+  console.log(msg);
+})();
+```
 
 ## Inspiration
 
